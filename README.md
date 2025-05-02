@@ -1,24 +1,24 @@
-# Medical Insurance Cost Prediction Using Linear Regression
+# Medical Insurance Cost Prediction Using Random Forest Regressor
 
-This project predicts medical insurance costs based on various features such as age, sex, BMI, number of children, smoking status, and region using Linear Regression.
+This project uses a **Random Forest Regressor** to predict medical insurance charges based on features like age, sex, BMI, smoking status, and region. The model significantly improves prediction accuracy compared to basic linear models.
 
 ## 🧠 Project Objective
 
-The goal is to develop a machine learning model that can accurately estimate the medical insurance charges a person might incur, helping insurance companies and individuals plan better.
+To develop a machine learning model that predicts individual medical insurance costs using demographic and health-related features, which can assist insurance providers and policyholders in cost planning.
 
 ## 📂 Dataset
 
-The dataset contains the following features:
+The dataset includes the following features:
 
-- **age**: Age of primary beneficiary
-- **sex**: Gender of the person (male/female)
+- **age**: Age of the insured
+- **sex**: Gender (male/female)
 - **bmi**: Body Mass Index
-- **children**: Number of children/dependents
+- **children**: Number of dependents covered
 - **smoker**: Smoking status (yes/no)
-- **region**: Residential region in the US (northeast, southeast, southwest, northwest)
-- **charges**: Individual medical costs billed by health insurance
+- **region**: U.S. region (northeast, southeast, southwest, northwest)
+- **charges**: Medical insurance cost
 
-Sample data preview:
+Sample data:
 
 | age | sex   | bmi   | children | smoker | region    | charges     |
 |-----|-------|--------|----------|--------|-----------|-------------|
@@ -30,28 +30,31 @@ Sample data preview:
 - Python
 - Pandas
 - NumPy
-- Matplotlib / Seaborn
-- Scikit-learn (for model building)
+- Scikit-learn
+- OneHotEncoder
+- RandomForestRegressor
+- Matplotlib / Seaborn (optional for visualization)
 
 ## 📊 Methodology
 
-1. **Data Cleaning & Preprocessing**
-   - Handled categorical variables using one-hot encoding.
-   - Normalized numeric features if necessary.
+1. **Preprocessing**
+   - One-hot encode categorical variables: `sex`, `smoker`, `region`
+   - Concatenate encoded columns with numerical features
+
 2. **Model Building**
-   - Applied Linear Regression to predict the `charges` column.
-   - Evaluated model using metrics like Mean Squared Error and R² score.
-3. **Visualization**
-   - Correlation heatmaps and regression line plots to understand data patterns.
+   - Train/test split (80/20)
+   - Model: `RandomForestRegressor(n_estimators=100, random_state=42)`
 
-## 📈 Results
-
-The linear regression model was trained and evaluated successfully. Although linear regression is a simple model, it gave a reasonable performance for this dataset. Advanced models can be explored for improvement.
+3. **Model Evaluation**
+   - **Training R² Score**: 0.977
+   - **Test R² Score**: 0.838
+   - These results show the model fits well with minimal overfitting.
 
 ## 🚀 Future Work
 
-- Implement advanced regression models (e.g., Random Forest, Gradient Boosting).
-- Add feature engineering (e.g., BMI category bins, interaction terms).
-- Deploy the model using Flask or Streamlit for real-time predictions.
+- Hyperparameter tuning using GridSearchCV or RandomizedSearchCV
+- Try advanced models like XGBoost or CatBoost
+- Visualize feature importance for better interpretability
+- Deploy as a web app using Streamlit or Flask
 
 
