@@ -204,12 +204,10 @@ For questions, feedback, or collaboration opportunities, please reach out throug
 
 - Dataset Source: E-Challan Daily Data (2015-2026)
 - Tool: Microsoft Power BI
-- Guidance: ChatGPT for analytical framework and dashboard structure
-
 ---
 
-**Last Updated:** February 2026  
-**Version:** 1.0
+**Last Updated:** February 2026 15
+
 
 ---
 
