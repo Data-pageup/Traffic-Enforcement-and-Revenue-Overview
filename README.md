@@ -39,12 +39,7 @@ This Power BI dashboard provides a comprehensive analysis of traffic enforcement
 - Is pending amount increasing over time?
 - What is the average fine trend?
 
-### Backlog & Efficiency (Page 4)
-- Is disposal capacity scaling with violation growth?
-- Is system overload increasing?
-- What is the disposal rate over time?
-
-### Court Analysis (Page 5)
+### Court Analysis (Page 4)
 - What percentage of challans go to court?
 - Is court processing a bottleneck?
 - What is the court disposal efficiency?
