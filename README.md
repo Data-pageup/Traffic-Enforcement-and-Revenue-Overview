@@ -138,10 +138,7 @@ Year-over-year growth patterns, COVID impact, and long-term enforcement trends
 ### **Page 3: Financial Performance**
 Revenue generation, collection efficiency, and pending amount analysis
 
-### **Page 4: Backlog & Efficiency**
-Disposal capacity, pending trends, and system scalability assessment
-
-### **Page 5: Court Analysis**
+### **Page 4: Court Analysis**
 Court case burden, resolution rates, and judicial bottleneck identification
 
 ---
