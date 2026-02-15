@@ -10,6 +10,7 @@
 ##  Project Overview
 
 This Power BI dashboard provides a comprehensive analysis of traffic enforcement (E-Challan) data spanning over 11 years. The project analyzes challan issuance, disposal rates, revenue collection, pending amounts, and court case processing to identify trends, bottlenecks, and system efficiency.
+<img width="734" height="459" alt="image" src="https://github.com/user-attachments/assets/b823adab-9c87-4833-9809-1349455fa234" />
 
 ### Key Metrics Analyzed
 - **417M** Total Challans Issued
