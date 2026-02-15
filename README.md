@@ -7,7 +7,7 @@
 
 ---
 
-## 📊 Project Overview
+##  Project Overview
 
 This Power BI dashboard provides a comprehensive analysis of traffic enforcement (E-Challan) data spanning over 11 years. The project analyzes challan issuance, disposal rates, revenue collection, pending amounts, and court case processing to identify trends, bottlenecks, and system efficiency.
 
@@ -20,7 +20,7 @@ This Power BI dashboard provides a comprehensive analysis of traffic enforcement
 
 ---
 
-## 🎯 Business Questions Answered
+## Business Questions Answered
 
 ### Executive Overview (Page 1)
 - What is the overall enforcement performance?
@@ -38,6 +38,7 @@ This Power BI dashboard provides a comprehensive analysis of traffic enforcement
 - What is the collection efficiency rate?
 - Is pending amount increasing over time?
 - What is the average fine trend?
+<img width="843" height="475" alt="image" src="https://github.com/user-attachments/assets/4f5eb7f5-e9b3-4f1b-b538-d52ec83a945a" />
 
 ### Court Analysis (Page 4)
 - What percentage of challans go to court?
