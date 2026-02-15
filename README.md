@@ -46,6 +46,7 @@ This Power BI dashboard provides a comprehensive analysis of traffic enforcement
 - Are years with high court cases correlating with high pending amounts?
 
 ---
+<img width="842" height="478" alt="image" src="https://github.com/user-attachments/assets/60c51751-ce74-4a2d-a1eb-3fa64f20d8c4" />
 
 ##  Dataset Information
 
